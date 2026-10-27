@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Screen &amp; Sound Recorder: Mac Screen Recorder with Computer Sound</title>
+  <meta name="description" content="A free Chrome extension for Mac that records your screen together with your computer's sound and your microphone, even with headphones on. Saves MP4 files on your Mac. Nothing is uploaded.">
+  <link rel="canonical" href="https://yz-01.github.io/screen-and-sound-recorder/">
+  <link rel="icon" href="assets/icon.png">
+  <meta name="theme-color" content="#e85138">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Screen &amp; Sound Recorder: record your Mac screen with computer sound">
+  <meta property="og:description" content="Records your screen, your computer's sound and your microphone, even with headphones on. Free, and everything stays on your Mac.">
+  <meta property="og:url" content="https://yz-01.github.io/screen-and-sound-recorder/">
+  <meta property="og:image" content="https://yz-01.github.io/screen-and-sound-recorder/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Screen & Sound Recorder",
+    "applicationCategory": "MultimediaApplication",
+    "applicationSubCategory": "Screen recorder",
+    "operatingSystem": "macOS 14.2 or later, Google Chrome 141 or later",
+    "description": "A Chrome extension for Mac that records the screen together with the computer's sound and the microphone, even with headphones on, and saves MP4 files on the computer.",
+    "url": "https://yz-01.github.io/screen-and-sound-recorder/",
+    "downloadUrl": "https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob",
+    "image": "https://yz-01.github.io/screen-and-sound-recorder/assets/og-image.png",
+    "author": { "@type": "Person", "name": "Yoong Zhun Tey" },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I record my Mac screen with computer sound while wearing headphones?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Install Screen & Sound Recorder from the Chrome Web Store, click its toolbar icon, press Start Recording, choose Entire Screen in Chrome's picker and turn on Also share system audio. The computer's sound is captured directly and mixed with your microphone, so it is recorded even when it only plays in your headphones." }
+      },
+      {
+        "@type": "Question",
+        "name": "Why doesn't QuickTime record the sound I hear in my headphones?",
+        "acceptedAnswer": { "@type": "Answer", "text": "QuickTime Player, and the Screenshot toolbar before macOS 27, record sound only through a microphone. With headphones on, the computer's sound never reaches the microphone, so it is missing from the recording. macOS 27 adds an Include System Audio option to the Screenshot toolbar. Screen & Sound Recorder works on macOS 14.2 and later, mixes your microphone into the same file, and adds a floating camera window." }
+      },
+      {
+        "@type": "Question",
+        "name": "Are my recordings uploaded anywhere?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. Recordings are saved as files in a folder you choose inside your Downloads folder. The extension has no servers, no account, no analytics and no ads, and nothing you record is sent anywhere." }
+      },
+      {
+        "@type": "Question",
+        "name": "What file format does it save?",
+        "acceptedAnswer": { "@type": "Answer", "text": "MP4 with H.264 video and AAC audio, which plays in QuickTime and almost everywhere else. Recordings with only the microphone are saved as M4A audio files." }
+      },
+      {
+        "@type": "Question",
+        "name": "What do I need to use it?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A Mac with macOS 14.2 or later and Google Chrome 141 or later. The first time, turn on Google Chrome in System Settings, Privacy & Security, Screen & System Audio Recording, and allow the microphone and camera if you use them." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Screen & Sound Recorder is free on the Chrome Web Store." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="./"><img src="assets/icon.png" alt="" width="32" height="32">Screen &amp; Sound Recorder</a>
+    <a class="button small" href="https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob">Add to Chrome</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Free Chrome extension for Mac</p>
+      <h1>Record your screen with your computer's sound. <span>Even with headphones on.</span></h1>
+      <p class="lede">Screen &amp; Sound Recorder captures your screen, the sound your Mac plays and your microphone, and saves one ready-to-share MP4. Everything stays on your Mac.</p>
+      <div class="actions">
+        <a class="button" href="https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob">Add to Chrome, it's free</a>
+        <a class="link" href="#demo">Watch the 80-second demo</a>
+      </div>
+      <p class="fine">Works on macOS 14.2 or later with Chrome 141 or later.</p>
+    </section>
+
+    <section class="demo" id="demo">
+      <video controls preload="metadata" playsinline poster="assets/og-image.png">
+        <source src="assets/demo.mp4" type="video/mp4">
+        <track kind="captions" src="assets/demo.vtt" srclang="en" label="English" default>
+      </video>
+      <p class="fine">Also on <a href="https://youtu.be/bHnrD9TamWk">YouTube</a>.</p>
+    </section>
+
+    <section class="problem">
+      <h2>The problem with headphones</h2>
+      <p>Built-in recorders like QuickTime Player only listen through a microphone. Without headphones, your Mac's sound leaks into the mic: faint, echoey, but there. Put headphones on, and the other people in the call, the video you're explaining and every app sound go straight to your ears. The recording only has your voice.</p>
+      <p>Screen &amp; Sound Recorder takes the computer's sound directly from macOS and mixes it with your microphone, so both end up in the file, headphones on or off.</p>
+    </section>
+
+    <section class="steps">
+      <h2>Three steps</h2>
+      <ol>
+        <li><img src="assets/1-recorder.jpg" alt="The recorder window with microphone, camera, save folder and quality settings" loading="lazy" width="1280" height="800"><h3>Open it from the toolbar</h3><p>Turn your microphone and camera on or off, pick a quality, and name a save folder once.</p></li>
+        <li><img src="assets/2-picker.jpg" alt="Chrome's screen picker with the Also share system audio switch turned on" loading="lazy" width="1280" height="800"><h3>Share your screen with its sound</h3><p>Choose Entire Screen, a window or a tab, and turn on "Also share system audio".</p></li>
+        <li><img src="assets/5-recordings.jpg" alt="The Recordings page playing a saved recording" loading="lazy" width="1280" height="800"><h3>Stop, and it's saved</h3><p>Your MP4 lands in your folder in Downloads, and the Recordings page opens so you can watch it right away.</p></li>
+      </ol>
+    </section>
+
+    <section class="features">
+      <h2>Everything you need, nothing you don't</h2>
+      <div class="grid">
+        <div><h3>Computer sound and your voice</h3><p>Mixed into one track, with a limiter so loud moments don't clip.</p></div>
+        <div><h3>Floating camera</h3><p>Drag your camera bubble anywhere. It's in the video when you share the entire screen.</p></div>
+        <div><h3>Camera only</h3><p>Record just your camera and mic, or just your voice as an M4A file.</p></div>
+        <div><h3>Controls in the toolbar</h3><p>A 3-second countdown, the running time, and pause, resume and mute in one click. Keyboard shortcuts too.</p></div>
+        <div><h3>Straight into a folder</h3><p>MP4 files go into a folder you name inside Downloads, with no save dialogs.</p></div>
+        <div><h3>Your recordings in one place</h3><p>Watch, rename, open in QuickTime or show in Finder. Renaming and deleting change the file too.</p></div>
+      </div>
+    </section>
+
+    <section class="private">
+      <h2>It all stays on your Mac</h2>
+      <p>There are no servers, no account, no analytics and no ads. Your screen, your sound and your camera are recorded on your computer and saved to your own Downloads folder. Nothing is ever uploaded.</p>
+      <a class="link" href="https://yz-01.github.io/chrome-extension-privacy/screen-and-sound-recorder.html">Read the privacy policy</a>
+    </section>
+
+    <section class="faq">
+      <h2>Questions</h2>
+      <details><summary>How do I record my Mac screen with computer sound while wearing headphones?</summary><p>Install Screen &amp; Sound Recorder, click its toolbar icon and press Start Recording. In Chrome's picker, choose Entire Screen and turn on "Also share system audio". The computer's sound is captured directly and mixed with your microphone, so it's recorded even when it only plays in your headphones.</p></details>
+      <details><summary>Why doesn't QuickTime record the sound I hear in my headphones?</summary><p>QuickTime Player, and the Screenshot toolbar before macOS 27, record sound only through a microphone. With headphones on, the computer's sound never reaches the microphone. macOS 27 adds an "Include System Audio" option to the Screenshot toolbar. Screen &amp; Sound Recorder works on macOS 14.2 and later, mixes your microphone into the same file, and adds a floating camera window.</p></details>
+      <details><summary>Are my recordings uploaded anywhere?</summary><p>No. Recordings are saved as files in a folder you choose inside Downloads. Nothing you record is sent anywhere.</p></details>
+      <details><summary>What file format does it save?</summary><p>MP4 with H.264 video and AAC audio, which plays in QuickTime and almost everywhere else. Microphone-only recordings are saved as M4A.</p></details>
+      <details><summary>What do I need to use it?</summary><p>A Mac with macOS 14.2 or later and Google Chrome 141 or later. The first time, turn on Google Chrome in System Settings → Privacy &amp; Security → Screen &amp; System Audio Recording, and allow the microphone and camera if you use them.</p></details>
+      <details><summary>Why is the sound recorded twice?</summary><p>With the microphone on and sound playing through your speakers, the mic hears the speakers too. Headphones give the cleanest result.</p></details>
+      <details><summary>Is it free?</summary><p>Yes, it's free on the Chrome Web Store.</p></details>
+    </section>
+
+    <section class="cta">
+      <img src="assets/icon.png" alt="" width="64" height="64">
+      <h2>Record your next walkthrough with sound.</h2>
+      <a class="button" href="https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob">Add to Chrome, it's free</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Yoong Zhun Tey · <a href="https://yz-01.github.io/chrome-extension-privacy/screen-and-sound-recorder.html">Privacy policy</a> · <a href="https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob">Chrome Web Store</a></p>
+  </footer>
+</body>
+</html>
