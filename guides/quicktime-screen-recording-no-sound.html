@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuickTime Screen Recording Has No Sound? Why, and How to Fix It</title>
+  <meta name="description" content="QuickTime screen recordings are silent or miss the computer's sound because QuickTime only records a microphone. Here's how to turn the microphone on, and how to record your Mac's own sound.">
+  <link rel="canonical" href="https://recorder.ascenny.com/guides/quicktime-screen-recording-no-sound">
+  <link rel="icon" href="/assets/icon.png">
+  <meta name="theme-color" content="#e85138">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="QuickTime screen recording has no sound? Why, and how to fix it">
+  <meta property="og:description" content="Turn the microphone on, check permissions, and record your Mac's own sound.">
+  <meta property="og:url" content="https://recorder.ascenny.com/guides/quicktime-screen-recording-no-sound">
+  <meta property="og:image" content="https://recorder.ascenny.com/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "QuickTime Screen Recording Has No Sound? Why, and How to Fix It",
+    "description": "QuickTime screen recordings are silent or miss the computer's sound because QuickTime only records a microphone. Here's how to turn the microphone on, and how to record your Mac's own sound.",
+    "datePublished": "2026-10-28",
+    "dateModified": "2026-10-28",
+    "image": "https://recorder.ascenny.com/assets/og-image.png",
+    "author": { "@type": "Organization", "name": "Ascenny" },
+    "publisher": { "@type": "Organization", "name": "Ascenny", "email": "hello@ascenny.com" },
+    "mainEntityOfPage": "https://recorder.ascenny.com/guides/quicktime-screen-recording-no-sound"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why does my QuickTime screen recording have no sound?",
+        "acceptedAnswer": { "@type": "Answer", "text": "QuickTime screen recordings only take sound from a microphone, and the microphone is often set to None. Even with the microphone on, QuickTime can't record the sound your Mac plays, so videos, calls and app sounds are missing, especially with headphones on." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can QuickTime record internal audio?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. QuickTime Player records only from a microphone. On macOS 27 the Screenshot toolbar adds an Include System Audio option; on earlier versions use a virtual audio device such as BlackHole, or a recorder that captures system audio directly, such as the free Screen & Sound Recorder Chrome extension." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="/"><img src="/assets/icon.png" alt="" width="32" height="32">Screen &amp; Sound Recorder</a>
+    <a class="button small" href="https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob">Add to Chrome</a>
+  </header>
+
+  <main>
+    <article class="doc">
+      <p class="crumbs"><a href="/guides">Guides</a></p>
+      <h1>QuickTime screen recording has no sound? Why, and how to fix it</h1>
+      <p class="updated">Updated October 28, 2026</p>
+
+      <div class="answer">
+        <p><strong>Short answer:</strong> QuickTime screen recordings only take sound from a microphone, and the microphone is often set to None. Turn it on in the recording options to get your voice. QuickTime can't record the sound your Mac plays, though, so for videos, calls and app sounds you need the Include System Audio option on macOS 27, a virtual audio device, or a recorder that captures the computer's sound, such as <a href="/">Screen &amp; Sound Recorder</a>.</p>
+      </div>
+
+      <h2>Why the recording is silent</h2>
+      <ul>
+        <li><strong>The microphone is set to None.</strong> Then nothing is recorded at all.</li>
+        <li><strong>QuickTime doesn't have microphone permission.</strong> macOS blocks the microphone until you allow it.</li>
+        <li><strong>QuickTime can't record your Mac's own sound.</strong> It only listens to a microphone, so the sound in your speakers or headphones never makes it into the file.</li>
+      </ul>
+
+      <h2>Fix 1: Turn on the microphone (for your voice)</h2>
+      <ol>
+        <li>Press Shift-Command-5, or open QuickTime Player and choose File, New Screen Recording.</li>
+        <li>Click Options in the toolbar that appears.</li>
+        <li>Under Microphone, choose your Mac's microphone or a headset.</li>
+        <li>Record again.</li>
+      </ol>
+
+      <h2>Fix 2: Check the microphone permission</h2>
+      <p>If the recording is still silent, open System Settings, Privacy &amp; Security, Microphone, and make sure QuickTime Player is turned on.</p>
+
+      <h2>Fix 3: Record the sound your Mac plays</h2>
+      <p>To get the other people in a call, a video or app sounds into the recording:</p>
+      <ul>
+        <li><strong>On macOS 27 or later:</strong> look for Include System Audio in the Screenshot toolbar's Options menu.</li>
+        <li><strong>On earlier versions:</strong> route the sound through a virtual audio device such as BlackHole, or use a recorder that captures system audio directly.</li>
+      </ul>
+      <p><a href="/">Screen &amp; Sound Recorder</a> is a free Chrome extension that records your screen with the computer's sound and mixes in your microphone, on macOS 14.2 or later with Chrome 141 or later. The steps are in <a href="/guides/record-mac-screen-with-internal-audio">How to record your Mac screen with internal audio</a>.</p>
+
+      <h2>Why it's worse with headphones</h2>
+      <p>Without headphones, the microphone hears a faint copy of the speakers, so a little of the computer's sound sneaks in. With headphones on, it all goes to your ears and none of it reaches the microphone. That's when recordings end up with only your voice.</p>
+
+      <div class="cta-box">
+        <h2>Record your screen with its sound</h2>
+        <p>Free for Mac. Your screen, your computer's sound and your voice in one MP4.</p>
+        <a class="button" href="https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob">Add to Chrome, it's free</a>
+      </div>
+
+      <h2>Related guides</h2>
+      <ul>
+        <li><a href="/guides/record-mac-screen-with-internal-audio">How to record your Mac screen with internal audio</a></li>
+        <li><a href="/guides/record-video-call-on-mac">How to record a Zoom, Google Meet or Teams call on your Mac</a></li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2026 Ascenny · <a href="mailto:hello@ascenny.com">hello@ascenny.com</a> · <a href="/guides">Guides</a> · <a href="/privacy">Privacy policy</a> · <a href="https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob">Chrome Web Store</a></p>
+  </footer>
+</body>
+</html>

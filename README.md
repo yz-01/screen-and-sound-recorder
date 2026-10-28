@@ -8,6 +8,7 @@ Deployed with Vercel at https://recorder.ascenny.com/ (every push to `main` goes
 | --- | --- |
 | `index.html` | The page, with structured data for search engines (SoftwareApplication and FAQ) |
 | `privacy.html` | The privacy policy, served at `/privacy` |
+| `guides/` | Step-by-step guides that answer common questions, linked from the home page and listed at `/guides` |
 | `style.css` | Page styles, light and dark |
 | `assets/` | Icon, social preview image, demo video and captions, screenshots |
 | `robots.txt`, `sitemap.xml` | Help search engines find the pages |
