@@ -1,0 +1,21 @@
+# Screen & Sound Recorder
+
+> A free Chrome extension for Mac that records the screen together with the computer's sound and the microphone, even with headphones on, and saves MP4 files on the computer. Made by Ascenny.
+
+- Records the entire screen, a window or a tab with the computer's sound, using Chrome's own screen picker.
+- Mixes the computer's sound and the microphone into one track, with a limiter so loud moments don't clip.
+- Optional floating camera bubble, and a camera-only mode. Microphone-only recordings are saved as M4A.
+- Saves MP4 files (H.264 and AAC) into a folder inside Downloads. A Recordings page plays, renames and shows them in Finder.
+- Runs entirely on the computer: no account, no upload, no analytics, no ads.
+- Needs macOS 14.2 or later and Chrome 141 or later. Free.
+
+## Links
+
+- [Chrome Web Store](https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob): install the extension
+- [Website](https://recorder.ascenny.com/): features, demo video and FAQ
+- [Privacy policy](https://recorder.ascenny.com/privacy): what the extension accesses and stores
+- [Demo video](https://youtu.be/bHnrD9TamWk): an 80-second walkthrough
+
+## Contact
+
+hello@ascenny.com

@@ -11,4 +11,5 @@ Deployed with Vercel at https://recorder.ascenny.com/ (every push to `main` goes
 | `style.css` | Page styles, light and dark |
 | `assets/` | Icon, social preview image, demo video and captions, screenshots |
 | `robots.txt`, `sitemap.xml` | Help search engines find the pages |
+| `llms.txt` | A short plain-text summary for AI assistants |
 | `vercel.json` | Serves pages without `.html` in the address |
