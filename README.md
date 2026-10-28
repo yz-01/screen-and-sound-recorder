@@ -2,7 +2,7 @@
 
 The landing page for [Screen & Sound Recorder](https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob), a Chrome extension for Mac that records the screen with computer sound and the microphone, even with headphones on.
 
-Deployed with Vercel at https://recorder.ascenny.com/ (every push to `main` goes live). The old GitHub Pages address, https://yz-01.github.io/screen-and-sound-recorder/, sends visitors to the new one.
+Deployed with Vercel at https://recorder.ascenny.com/ (every push to `main` goes live).
 
 | Path | Purpose |
 | --- | --- |
