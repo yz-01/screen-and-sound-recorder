@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>How to Record Your Mac Screen with Internal Audio (Even with Headphones)</title>
-  <meta name="description" content="Why Mac screen recordings miss the computer's sound, and three ways to record your screen with internal audio and your microphone, even with headphones on.">
+  <meta name="description" content="Why Mac screen recordings miss the computer's sound, and two ways to record your screen with internal audio and your microphone, even with headphones on.">
   <link rel="canonical" href="https://recorder.ascenny.com/guides/record-mac-screen-with-internal-audio">
   <link rel="icon" href="/assets/icon.png">
   <meta name="theme-color" content="#e85138">
   <meta property="og:type" content="article">
   <meta property="og:title" content="How to record your Mac screen with internal audio">
-  <meta property="og:description" content="Three ways to record your screen together with the computer's sound and your microphone, even with headphones on.">
+  <meta property="og:description" content="Two ways to record your screen together with the computer's sound and your microphone, even with headphones on.">
   <meta property="og:url" content="https://recorder.ascenny.com/guides/record-mac-screen-with-internal-audio">
   <meta property="og:image" content="https://recorder.ascenny.com/assets/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "How to Record Your Mac Screen with Internal Audio (Even with Headphones)",
-    "description": "Why Mac screen recordings miss the computer's sound, and three ways to record your screen with internal audio and your microphone, even with headphones on.",
+    "description": "Why Mac screen recordings miss the computer's sound, and two ways to record your screen with internal audio and your microphone, even with headphones on.",
     "datePublished": "2026-10-28",
     "dateModified": "2026-10-28",
     "image": "https://recorder.ascenny.com/assets/og-image.png",
@@ -37,7 +37,7 @@
       {
         "@type": "Question",
         "name": "Why doesn't my Mac screen recording have the computer's sound?",
-        "acceptedAnswer": { "@type": "Answer", "text": "QuickTime Player, and the Screenshot toolbar before macOS 27, record sound only through a microphone. The sound your Mac plays goes to the speakers or headphones, not into the microphone, so it is missing from the recording. With headphones on, none of it reaches the microphone." }
+        "acceptedAnswer": { "@type": "Answer", "text": "QuickTime Player records sound only through a microphone. The sound your Mac plays goes to the speakers or headphones, not into the microphone, so it is missing from the recording. With headphones on, none of it reaches the microphone." }
       },
       {
         "@type": "Question",
@@ -66,16 +66,13 @@
       <p class="updated">Updated October 28, 2026</p>
 
       <div class="answer">
-        <p><strong>Short answer:</strong> QuickTime Player, and the Screenshot toolbar before macOS 27, only record through a microphone, so the sound your Mac plays is missing, and with headphones on none of it is recorded. To capture it, use the Include System Audio option on macOS 27, set up a virtual audio device such as BlackHole, or use a recorder that captures the computer's sound directly, such as <a href="/">Screen &amp; Sound Recorder</a>, a free Chrome extension.</p>
+        <p><strong>Short answer:</strong> QuickTime Player only records through a microphone, so the sound your Mac plays is missing, and with headphones on none of it is recorded. To capture it, set up a virtual audio device such as BlackHole, or use a recorder that captures the computer's sound directly, such as <a href="/">Screen &amp; Sound Recorder</a>, a free Chrome extension.</p>
       </div>
 
       <h2>Why your recording has no computer sound</h2>
-      <p>Your Mac sends sound to an output, such as the speakers or your headphones. The built-in screen recorders listen to an input, your microphone. Without headphones, the microphone picks up a faint, echoey copy of the speakers. With headphones on, the other people in a call, the video you're explaining and every app sound go straight to your ears, and the recording only has your voice.</p>
+      <p>Your Mac sends sound to an output, such as the speakers or your headphones. QuickTime Player listens to an input, your microphone. Without headphones, the microphone picks up a faint, echoey copy of the speakers. With headphones on, the other people in a call, the video you're explaining and every app sound go straight to your ears, and the recording only has your voice.</p>
 
-      <h2>Option 1: The Screenshot toolbar on macOS 27</h2>
-      <p>If your Mac runs macOS 27 or later, press Shift-Command-5 to open the Screenshot toolbar and look for Include System Audio in its Options menu. It's built in and needs nothing extra. On earlier versions of macOS this option isn't there.</p>
-
-      <h2>Option 2: A virtual audio device such as BlackHole</h2>
+      <h2>Option 1: A virtual audio device such as BlackHole</h2>
       <p>A virtual audio driver creates a pretend microphone that hears what your Mac plays.</p>
       <ol>
         <li>Install a virtual audio driver such as BlackHole.</li>
@@ -85,7 +82,7 @@
       </ol>
       <p>It works with any app, but it takes some setup, and the keyboard volume keys don't change the volume of a Multi-Output Device.</p>
 
-      <h2>Option 3: Screen &amp; Sound Recorder for Chrome</h2>
+      <h2>Option 2: Screen &amp; Sound Recorder for Chrome</h2>
       <p>Screen &amp; Sound Recorder is a free Chrome extension that captures the computer's sound directly and mixes it with your microphone, without changing any audio settings. It needs macOS 14.2 or later and Chrome 141 or later.</p>
       <ol>
         <li><a href="https://chromewebstore.google.com/detail/gemaaokegkngogofohbmpjndjohbkkob">Add Screen &amp; Sound Recorder to Chrome</a> and pin it to the toolbar.</li>
@@ -98,7 +95,6 @@
 
       <h2>Which one should you use?</h2>
       <ul>
-        <li><strong>A quick clip on macOS 27:</strong> the Screenshot toolbar.</li>
         <li><strong>You also route audio between apps</strong>, for music or streaming: a virtual audio device.</li>
         <li><strong>Screen, computer sound, your voice and your camera in one MP4</strong>, without touching audio settings: Screen &amp; Sound Recorder.</li>
       </ul>

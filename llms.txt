@@ -18,7 +18,7 @@
 
 ## Guides
 
-- [How to record your Mac screen with internal audio](https://recorder.ascenny.com/guides/record-mac-screen-with-internal-audio): why recordings miss the computer's sound, and three ways to capture it
+- [How to record your Mac screen with internal audio](https://recorder.ascenny.com/guides/record-mac-screen-with-internal-audio): why recordings miss the computer's sound, and two ways to capture it
 - [QuickTime screen recording has no sound?](https://recorder.ascenny.com/guides/quicktime-screen-recording-no-sound): why it happens and how to fix it
 - [How to record a Zoom, Google Meet or Teams call on a Mac](https://recorder.ascenny.com/guides/record-video-call-on-mac): both sides' audio in one recording
 
