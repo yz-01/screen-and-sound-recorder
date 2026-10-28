@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yz-01.github.io/screen-and-sound-recorder/sitemap.xml
+Sitemap: https://recorder.ascenny.com/sitemap.xml
